@@ -89,6 +89,11 @@ Implemented using **Scikit-learn `ColumnTransformer`**
 
 ## 🤖 Modeling & Performance
 
+### 📊 Models Trained
+- Logistic Regression 2x
+- Random Forest
+- LightGBM 2x
+
 ### 📊 Model Comparison
 
 | Aspect              | Logistic Regression | LightGBM (Final Model) |
@@ -123,40 +128,41 @@ Due to imbalance, accuracy alone was insufficient.
 - **Recall**
   - Controls false negatives
 
+
 ---
 
-
-##📁 Data Setup
+## 📁 Data Setup
 
 Place the following files in the root directory:
 
 train.csv
 test.csv
-
+--- 
 ## ▶️ Execution
 Open the Jupyter Notebook
 Run all cells to:
 Train the model
 Generate predictions
 Output submission.csv
-
+---
 ##⚠️ Important Note
 
 Always use:
 prep.transform(test_data)
 instead of fit_transform on test data to ensure consistency with training preprocessing.
-
+---
 ## 📅 Project Timeline
 
 Comment Category Prediction Challenge
 📆 January 2026 – March 2026
-
+---
 ## 💡 Key Highlights
-End-to-end ML pipeline with real-world applicability
-Advanced feature engineering combining NLP + metadata
-Effective handling of class imbalance
-Production-ready preprocessing pipeline
+- End-to-end ML pipeline with real-world applicability
+- Advanced feature engineering combining NLP + metadata
+- Effective handling of class imbalance
+- Production-ready preprocessing pipeline
 
+---
 ## 📌 Future Improvements
 Deep learning models (BERT / Transformers)
 Real-time moderation API deployment
